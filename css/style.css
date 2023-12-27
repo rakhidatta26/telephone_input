@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 50px;
+    background-color: aqua;
+  }
+  
+  
+  
+  input,
+  button {
+    height: 35px;
+    margin: 0;
+    padding: 6px 12px;
+    border-radius: 2px;
+/*    font-family: inherit;*/
+/*    font-size: 100%;*/
+/*    color: inherit;*/
+  }
+
+  
+  
+  input {
+    border: 1px solid #ccc;
+    width: 250px;
+  }
+  
+  /*::placeholder,
+  :-ms-input-placeholder {
+    color: #bbb;
+  }*/
+  
+  button {
+    color: #ffffff;
+    background-color: black;
+    border: 1px solid #357bbd;
+  }
+  button:hover {
+    background-color: #3276b1;
+    border-color: #285e8e;
+    cursor: pointer;
+  }
